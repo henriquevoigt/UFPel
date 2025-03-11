@@ -1,0 +1,2 @@
+PS E:\putaria> gcc teste.c -o teste
+PS E:\putaria> ./teste
