@@ -1,8 +1,9 @@
-#include <stdio.h>
-
 // altura e raio -> area -> qtd latas -> custo
 // cada lata R$ 20, com 5 litros e pinta 3m²
 // area = 2.pi.raio x (raio + altura)
+
+#include <stdio.h>
+
 
 int main (){
   float altura, raio;

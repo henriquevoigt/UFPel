@@ -25,6 +25,7 @@ int main(){
     printf("A soma dos numeros pares eh %d\n", soma_par);
     printf("A media dos numeros impares eh %d\n", media_impar);
 
+    
     return 0;
 
 
