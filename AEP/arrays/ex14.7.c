@@ -1,0 +1,1 @@
+// Ler um vetor Z de 10 elementos. Crie um vetor W, com todos os elementos de Z (na ordem inversa). Escrever o vetor W.
