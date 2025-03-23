@@ -2,3 +2,9 @@
 Armazene em um vetor P a posição (índice) que cada aluno ocupa no vetor N, dos alunos que obtiveram nota maior que a média calculada. Imprimir a média calculada e logo após o vetor P.
 OBS: Não deixar valores em branco entre os elementos de P */
 
+#include <stdio.h>
+
+int main(){
+
+   
+}

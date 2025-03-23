@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "DESAFIO_ROGERIO.C": "cpp"
+        "DESAFIO_ROGERIO.C": "cpp",
+        "stdio.h": "c"
     }
 }
