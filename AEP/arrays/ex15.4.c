@@ -6,5 +6,29 @@ OBS: Não deixar valores em branco entre os elementos de P */
 
 int main(){
 
-   
+    float vetor_N[10], media = 0;
+    int vetor_P[10], controle_media=0, controle_posicao = 0;
+
+    for (int lp_ctrl = 0; lp_ctrl < 10; lp_ctrl++){
+        vetor_P[lp_ctrl] = 0;
+        printf("Informe a nota do aluno %d\n", (lp_ctrl+1));
+        scanf("%f", &vetor_N[lp_ctrl]);
+        if (vetor_N[lp_ctrl] >= 6){
+            media += vetor_N[lp_ctrl];
+            controle_media++;
+        }
+    }
+    media = media / controle_media;
+    for (int lp_ctrl = 0; lp_ctrl < 10; lp_ctrl++){
+        if (vetor_N[lp_ctrl] > media){
+            vetor_P[controle_posicao] = (lp_ctrl);
+            controle_posicao++;
+        }
+    }
+    printf("Media calculada: %.2f\n", media);
+    for (int lp_ctrl = 0; lp_ctrl < 10; lp_ctrl++){
+        if (vetor_P[lp_ctrl] != 0){
+            printf("%d ", vetor_P[lp_ctrl]);
+        }
+    }
 }

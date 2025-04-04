@@ -5,5 +5,26 @@ para o final(Considere que existe espaço no vetor para o deslocamento). Logo ap
 
 int main(){
 
+    int vetor_B[10], valor_X;
+
+    for (int lp_ctrl = 0; lp_ctrl < 9; lp_ctrl++){
+        printf("Informe um valor para a posicao %d do vetor\n", lp_ctrl);
+        scanf("%d", &vetor_B[lp_ctrl]);
+    }
+
+    printf("Informe um valor para atribuir na primeira posicao do vetor\n");
+    scanf("%d", &valor_X);
+
+    for (int lp_ctrl = 10, lp_ctrl2 = 9; lp_ctrl > 0; lp_ctrl--, lp_ctrl2--){
+        vetor_B[lp_ctrl] = vetor_B[lp_ctrl2];
+    }
+
+    vetor_B[0] = valor_X;
+
+    for (int lp_ctrl = 0; lp_ctrl < 10; lp_ctrl++){
+        printf("%d ", vetor_B[lp_ctrl]);
+    }
+
+    return 0;
    
 }

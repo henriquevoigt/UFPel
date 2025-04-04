@@ -6,12 +6,11 @@ produto mais caro e dê um desconto de 12% para o produto mais barato. */
 int main(){
 
     int lp_ctrl;
-    float pdt_informado, pdt_caro=0, pdt_barato=99999999999;
+    float pdt_informado, pdt_caro = 0, pdt_barato = 999999999999999;
 
-    for (lp_ctrl = 0; lp_ctrl < 5; lp_ctrl++){
+    for (lp_ctrl = 0; lp_ctrl < 50; lp_ctrl++){
         printf("Informe o valor do produto\n");
         scanf("%f", &pdt_informado);
-        pdt_barato = pdt_informado;
         if (pdt_informado > pdt_caro){
             pdt_caro = pdt_informado;
         } if (pdt_informado < pdt_barato){
