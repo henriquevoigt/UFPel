@@ -1,8 +1,7 @@
-/* Modifique o programa exemplo-48.c, de modo que ele permita apagar somente os
-dados de uma pessoa com Nome e Sobrenome fornecidos pelo usuário do programa.
-Porém, antes de apagar os dados, o programa deve perguntar se o usuário deseja mesmo
-apagar... Sugestão: fazer uma função que busca na lista a posição (índice) onde se
-encontram armazenados os dados de uma pessoa de Nome e Sobrenome (ex: Joao Silva). */
+/* Modifique o programa exemplo-48.c, de modo a incluir duas novas opções no menu principal. Gravar 
+lista de endereços em Arquivo e Recuoerar Lista de Endereços de Arquivo. Implemente estas novas rotinas,
+sempre solicitando ao usuário que informe o nome do arquivo para cada operação. Faça testes manipulando
+tanto om arquivos binários quanto com arquivos texto. */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -21,6 +20,9 @@ void cria_lista(void);
 void insere(void);
 void apaga(void);
 void imprime(void);
+void grava_arquivo_txt();
+void grava_arquivo_bin();
+void recupera_arquivo();
 int menu(void);
 int livre(void);
 void ler_string(char palavra[100], int tamanho);
@@ -28,6 +30,7 @@ void ler_string(char palavra[100], int tamanho);
 int main()
 {
 	int escolha;
+    FILE *fp;
 
 	cria_lista();
 	for (;;) {
@@ -42,12 +45,25 @@ int main()
 		case 3:
 			imprime();
 			break;
-		case 4:
+        case 4:
+            grava_arquivo_txt();
+            break;
+        case 5:
+            grava_arquivo_bin();
+            break;
+        case 6:
+            recupera_arquivo();
+            break;
+		case 9:
 			exit(0);
 			break;
 		}
 	}
 	return 0;
+}
+
+void grava_arquivo_txt(){
+    
 }
 
 void cria_lista(void)
