@@ -181,6 +181,7 @@ void imprime(Cabeca *lista) {
                atual->matricula, atual->nome, atual->nota);
         atual = atual->prox;
     }
+    printf("\nTamanho da lista: %d registros\n", lista->tamanho);
 }
 
 void liberar(Cabeca *lista) {
@@ -204,7 +205,7 @@ void ler_arquivo(Cabeca *lista) {
     char nome[100];
     float nota;
 
-    while (fscanf(file, "%d;%99[^;];%f\n", &matricula, nome, &nota) == 3) {
+    while (fscanf(file, "%d;%[^;];%f\n", &matricula, nome, &nota) == 3) {
         if (matricula_existe(lista, matricula)) {
             continue; // ignora duplicatas do arquivo
         }

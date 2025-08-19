@@ -1,0 +1,8 @@
+1;voigt weege henrique;10.00
+95;henrique weege voigt;10.00
+100;Ana Beatriz;9.10
+101;Bruno Alves;6.50
+102;Carlos Silva;8.50
+105;Daniela Costa;7.80
+115;henrique voigt weege;10.00
+200;weege henrique voigt;10.00
