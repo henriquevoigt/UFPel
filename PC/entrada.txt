@@ -1,0 +1,4 @@
+102;Carlos Silva;8.5
+100;Ana Beatriz;9.1
+105;Daniela Costa;7.8
+101;Bruno Alves;6.5

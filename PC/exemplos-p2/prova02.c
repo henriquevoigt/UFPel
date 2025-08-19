@@ -1,0 +1,3 @@
+/* Você deve fazer um programa que lê de um arquivo-texto uma quantidade indeterminada de pares de números inteiros, o primeiro indica a prioridade e o segundo indica o
+custo de realizar uma determinada tarefa. Insira os dados de cada tarefa lidos do arquivo em ordem crescente de prioridade em uma lista simplesmente encadeada com cabeça. 
+Quando a tarefa tiver a mesma prioridade, o segundo critério para o ordenamento deve ser o custo. Ao final, grave o conteúdo da lista encadeada em um arquivo-texto. */
