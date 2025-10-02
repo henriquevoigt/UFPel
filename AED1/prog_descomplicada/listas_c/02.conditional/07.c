@@ -8,9 +8,11 @@ int main () {
     scanf("%d", &y);
 
     if ( x > y ) {
-        printf("\n%d eh maior\n", x);
+        printf("\n%d\n", x);
+    } else if ( x == y) {
+        printf("\nNumeros Iguais\n");
     } else {
-        printf("\n%d eh maior\n", y);
+        printf("\n%d\n", y);
     }
 
     return 0;

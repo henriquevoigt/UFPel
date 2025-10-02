@@ -8,9 +8,9 @@ int main () {
     scanf("%d", &y);
 
     if ( x > y ) {
-        printf("\n%d eh maior\n", x);
+        printf("\n%d, %d\n", x, x - y);
     } else {
-        printf("\n%d eh maior\n", y);
+        printf("\n%d, %d\n", y, y - x);
     }
 
     return 0;

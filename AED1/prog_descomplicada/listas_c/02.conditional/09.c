@@ -7,10 +7,10 @@ int main () {
     scanf("%d", &x);
     scanf("%d", &y);
 
-    if ( x > y ) {
-        printf("\n%d eh maior\n", x);
+    if ( y > (x * 0.2) ) {
+        printf("\nEmprestimo negado\n");
     } else {
-        printf("\n%d eh maior\n", y);
+        printf("\nEmprestimo aprovado\n");
     }
 
     return 0;
