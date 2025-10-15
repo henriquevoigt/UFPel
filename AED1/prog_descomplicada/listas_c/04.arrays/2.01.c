@@ -1,5 +1,3 @@
-/* Leia uma matriz 4 x 4, conte e escreva quantos valores maiores que 10 ela possui. */
-
 #include <stdio.h>
 
 int main () {

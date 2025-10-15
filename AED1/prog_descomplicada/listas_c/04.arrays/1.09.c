@@ -1,6 +1,3 @@
-/* Crie um programa que l ˆe 6 valores inteiros pares e, em seguida, mostre na tela os valores
-lidos na ordem inversa. */
-
 #include <stdio.h>
 
 int main () {

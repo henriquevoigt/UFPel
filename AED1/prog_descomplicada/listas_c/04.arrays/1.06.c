@@ -1,6 +1,3 @@
-/* Fac¸a um programa que receba do usu ´ario um vetor com 10 posic¸ ˜oes. Em seguida dever ´a
-ser impresso o maior e o menor elemento do vetor */
-
 #include <stdio.h> 
 
 int main () {
