@@ -1,0 +1,25 @@
+## Henrique Weege Voigt
+## Turma M1
+## ATIVIDADE CONCLUÍDA EM AULA!
+
+Trabalho prático 01 | LEETCODE 860 | 
+
+-> Em uma barraca de limonada, cada copo custa $ 5.
+
+-> Tem-se uma fila de compradores, onde cada um comprará apenas 1 limonada.
+
+-> Compradores pagarão com $5, $10 ou $20.
+
+-> O caixa começa zerado (sem troco);
+
+-----------------------------------------------
+
+O que deve ser feito:
+
+-> Dar o troco correto pra cada comprador;
+
+-> Se não for possível, não vender e retornar FALSE ao fim do programa, caso contrário, retornar TRUE.
+
+-----------------------------------------------
+
+## Codigo executa com 100% de aprovação nos testcase.
