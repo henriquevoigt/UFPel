@@ -3,17 +3,20 @@
 
 int main () {
 
-    int *vetor = NULL, tamanho = 5;
+    int tamanho, *vetor = NULL;
 
-    vetor = (int *)malloc(tamanho * sizeof(int));
+    printf("Informe o tamanho do vetor a ser lido: ");
+    scanf("%d", &tamanho);
+
+    vetor = (int *)malloc(tamanho * sizeof( int ));
 
     if ( vetor == NULL ) {
-        printf("Falha ao alocar memoria!\n");
+        printf("Erro ao alocar memoria!\n");
         return 1;
     }
 
     for ( int i = 0; i < tamanho; i++ ) {
-        printf("Informe o valor %d: ", i);
+        printf("Informe o valor da posicao %d: ", i);
         scanf("%d", &vetor[i]);
     }
 
@@ -21,7 +24,8 @@ int main () {
         printf("%d ", vetor[i]);
     }
 
-        free(vetor);
+    free(vetor);
 
     return 0;
+
 }
