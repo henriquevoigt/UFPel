@@ -1,0 +1,17 @@
+## Henrique Weege Voigt
+## Turma M1
+## ATIVIDADE CONCLUÍDA EM AULA!
+
+Trabalho prático 02 | LEETCODE 61 | 
+
+-> Dado um valor K, e um ponteiro head, rotacionar uma lista encadeada K vezes.
+
+-----------------------------------------------
+
+O que deve ser feito:
+
+-> Apontar o ultimo elemento pro primeiro, e tornar o primeiro o ultimo (tornando o apontamento pro proximo nulo)
+
+-----------------------------------------------
+
+## Codigo executa com 100% de aprovação nos testcase.
