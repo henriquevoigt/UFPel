@@ -1,0 +1,17 @@
+## Henrique Weege Voigt
+## Turma M1
+## ATIVIDADE CONCLUÍDA EM AULA!
+
+Trabalho prático 03 | LEETCODE 701 | 
+
+-> Dado um valor "val", e um ponteiro "root", inserir o valor na posição correta da árvore.
+
+-----------------------------------------------
+
+O que deve ser feito:
+
+-> Inserir um valor em uma árvore de busca binária, retornando o ponteiro da raíz após a inserção.
+
+-----------------------------------------------
+
+## Codigo executa com 100% de aprovação nos testcase.
