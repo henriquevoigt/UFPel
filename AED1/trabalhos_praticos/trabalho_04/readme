@@ -1,0 +1,17 @@
+## Henrique Weege Voigt
+## Turma M1
+## ATIVIDADE CONCLUÍDA EM CASA!
+
+Trabalho prático 04 | LEETCODE 179 | 
+
+-> Dado um vetor de números não negativos, ordena-los para formar 1 unico número, de forma que seja o maior possível.
+
+-----------------------------------------------
+
+O que deve ser feito:
+
+-> Devido a possibilidade de ser um número enorme, converter pra string, comparar e ordenar, encontrando o maior número possivel.
+
+-----------------------------------------------
+
+## Codigo executa com 100% de aprovação nos testcase.
